@@ -102,7 +102,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
--git clone https://github.com/Chimane1987/Hello-Project.git my-folder
+-git clone https://github.com/Chimane1987/Mobile-portfolio.git my-folder
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
