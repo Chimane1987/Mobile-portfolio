@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Inter, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  background-image: url(Icon\ -\ Menu.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 311px;
+  right: 24px;
+  top: 58px;
+  color: #28352f;
+}
+
+.container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  position: absolute;
+  background-image: url(header-illsutration-mobile.svg);
+  background-position: center;
+  justify-content: center;
+  height: 653.32px;
+  background-repeat: no-repeat;
+  left: -126.38px;
+  top: 92.8px;
+  width: 630.38px;
+}
+
+.hero-text h1 {
+  position: absolute;
+  text-align: center;
+  top: 156px;
+  left: 27px;
+  width: 327px;
+  height: 211px;
+  line-height: 52px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.hero-text span {
+  color: #36b37e;
+}
+
+.hero-text p {
+  position: absolute;
+  text-align: center;
+  width: 327px;
+  height: 164px;
+  left: 27px;
+  top: 382px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #172b4d;
+}
+
+.social-links ul {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  width: 170.17px;
+  height: 19.62px;
+  left: 105px;
+  top: 568.89px;
+  color: #505f79;
+}
+
+.social-links ul li {
+  margin-right: 15px;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 155px;
+  top: 670px;
+  bottom: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 90vh;
+  }
+
+  .image-container {
+    height: 653.32px;
+    left: -126.38px;
+    top: 92.8px;
+    width: 630.38px;
+  }
+}
