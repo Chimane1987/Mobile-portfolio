@@ -192,7 +192,7 @@ ul {
   row-gap: 16px;
 }
 
-.title p {
+.content p {
   display: inline-block;
   width: 90%;
   font-size: 24px;
@@ -245,7 +245,7 @@ ul {
 }
 
 .button a:hover {
-  background-color: #505f79;
+  box-shadow: 0 10px 16px 10px rgba(54, 179, 127, 0.5);
 }
 
 .about {
@@ -282,6 +282,11 @@ ul {
   margin-top: 24px;
 }
 
+.resume_button a:hover {
+  box-shadow: 0 10px 16px 10px rgba(54, 179, 127, 0.5);
+  border-radius: 5px;
+}
+
 .about .about-me-text .resume_button a {
   display: inline-block;
   width: 43.6%;
@@ -297,11 +302,6 @@ ul {
   text-align: center;
   padding-top: 10px;
   color: #fff;
-}
-
-.about-text .resume_button a:hover {
-  box-shadow: 0 10px 16px 10px rgba(54, 179, 127, 0.5);
-  border-radius: 5px;
 }
 
 .about-list {
