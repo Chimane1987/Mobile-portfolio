@@ -62,8 +62,8 @@
 
 
 
-- **[A .html file that includes a header and main section.]**
-- **[A .css file that includes styles for the whole project]**
+- **[A .html file that includes a header, main section, about section and my works.]**
+- **[A .css file that includes styles for the whole project including flexbox and css grid]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
